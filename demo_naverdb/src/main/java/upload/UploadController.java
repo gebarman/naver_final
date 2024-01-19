@@ -20,7 +20,7 @@ public class UploadController {
 	
 	@PostMapping("/fileupload")
 	ModelAndView uploadresult(UploadDTO dto) throws IOException{
-		String savePath = "c:/fullstack/upload/";
+		String savePath = "/usr/mydir/upload/"; //리눅스: /fullstack/upload 
 		String filename1 = null;
 		String newfilename1 = null;
 		String filename2 = null;

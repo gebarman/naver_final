@@ -7,7 +7,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 @ComponentScan(basePackages="websocket")
 @ComponentScan(basePackages="config")
-//@ComponentScan(basePackages="upload")
+@ComponentScan(basePackages="upload")
 @ComponentScan(basePackages="board.spring.mybatis")
 @ComponentScan(basePackages="db_jasypt")
 

@@ -9,7 +9,8 @@ public class MyPathConfig implements WebMvcConfigurer{
 
 	@Override
 	public void addResourceHandlers(ResourceHandlerRegistry registry) {
-		registry.addResourceHandler("/upload/**").addResourceLocations("file:///c:/fullstack/upload/");
+	//	registry.addResourceHandler("/upload/**").addResourceLocations("file:///c:/fullstack/upload/");
+		registry.addResourceHandler("/upload/**").addResourceLocations("file:///usr/mydir/upload/");
 		//addResourceHandler(url).addResourceLocations(실제 파일 경로)
 		///upload/파일명
 	
